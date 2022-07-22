@@ -3,6 +3,7 @@ name = "magicpi"
 version = "0.1.5"
 description = "Testing package publishing"
 authors = ["Wouter Ellenbroek <w.g.ellenbroek@tue.nl>"]
+homepage = "https://github.com/wouterel/magicpi"
 readme = "README.rst"
 license = "EUPL-1.2"
 classifiers = [
