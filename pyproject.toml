@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "magicpi"
+version = "0.1.5"
+description = "Testing package publishing"
+authors = ["Wouter Ellenbroek <w.g.ellenbroek@tue.nl>"]
+readme = "README.rst"
+license = "EUPL-1.2"
+classifiers = [
+	"Intended Audience :: Science/Research",
+	"Development Status :: 1 - Planning"
+]
+
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.21"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
