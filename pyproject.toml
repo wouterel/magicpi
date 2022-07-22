@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "magicpi"
-version = "0.1.5"
+version = "0.1.7"
 description = "Testing package publishing"
 authors = ["Wouter Ellenbroek <w.g.ellenbroek@tue.nl>"]
 homepage = "https://github.com/wouterel/magicpi"
-readme = "README.md"
+readme = "README.rst"
 license = "EUPL-1.2"
 classifiers = [
 	"Intended Audience :: Science/Research",
