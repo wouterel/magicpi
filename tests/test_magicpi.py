@@ -1,5 +1,7 @@
-from magicpi import __version__
+import magicpi as mp
+import numpy as np
 
 
-def test_version():
-    assert __version__ == '0.1.0'
+def test_value():
+    assert np.abs(np.sin(mp.pi())) < 1e-15
+
