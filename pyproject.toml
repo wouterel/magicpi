@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "magicpi"
-version = "0.2.0"
+version = "0.2.1"
 description = "Testing package publishing"
 authors = ["Wouter Ellenbroek <w.g.ellenbroek@tue.nl>"]
 homepage = "https://github.com/wouterel/magicpi"
