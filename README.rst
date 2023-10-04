@@ -9,6 +9,7 @@ Change log
 0.2.2
 =====
 Added support for Python 3.12. This led to the following:
+
 * Poetry 1.6.1 requires all dependencies to support PEP 517 builds.
 * With Python versions 3.11 and older, there was a way around this requirement, but
   in Python 3.12 the following error is thrown:
