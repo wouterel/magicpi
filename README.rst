@@ -10,14 +10,15 @@ Change log
 =====
 Re-added support for Python 3.8 because I figured out how to use conditional dependencies to make that work. In pyproject.toml:
 
-```
-numpy = [
-    {version = "^1.23,<1.25", python = "3.8"},
-    {version = "^1.23,<1.27", python = ">=3.9,<3.12"},
-    {version = "^1.26,<1.27", python = "3.12"}
-]
-```
+.. code::
 
+    [tool.poetry.dependencies]
+    python = ">=3.8,<3.13"
+    numpy = [
+        {version = "^1.23,<1.25", python = "3.8"},
+        {version = "^1.23,<1.27", python = ">=3.9,<3.12"},
+        {version = "^1.26,<1.27", python = "3.12"}
+    ]
 
 0.2.2
 =====
