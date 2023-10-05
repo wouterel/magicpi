@@ -6,6 +6,19 @@ Find the published package on `TestPyPI <https://test.pypi.org/project/magicpi/>
 Change log
 **********
 
+0.3.0
+=====
+Re-added support for Python 3.8 because I figured out how to use conditional dependencies to make that work. In pyproject.toml:
+
+```
+numpy = [
+    {version = "^1.23,<1.25", python = "3.8"},
+    {version = "^1.23,<1.27", python = ">=3.9,<3.12"},
+    {version = "^1.26,<1.27", python = "3.12"}
+]
+```
+
+
 0.2.2
 =====
 Added support for Python 3.12. This led to the following:
