@@ -8,14 +8,19 @@ authors = [
 homepage = "https://github.com/wouterel/magicpi"
 readme = "README.rst"
 license = "EUPL-1.2"
-classifiers = [
-	"Intended Audience :: Science/Research",
-	"Development Status :: 1 - Planning"
-]
 requires-python = ">=3.9,<3.14"
 dependencies = [
     "numpy (>=1.23,<2.3) ; python_version >= '3.9' and python_version < '3.12'",
     "numpy (>=1.26,<2.3) ; python_version >= '3.12' and python_version < '3.14'",
+]
+dynamic = ["classifiers"]
+
+[tool.poetry]
+requires-poetry = ">=2.0"
+classifiers = [
+
+	"Intended Audience :: Science/Research",
+	"Development Status :: 1 - Planning"
 ]
 
 
