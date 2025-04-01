@@ -6,6 +6,15 @@ Find the published package on `TestPyPI <https://test.pypi.org/project/magicpi/>
 Change log
 **********
 
+0.4.1
+=====
+Migrated management to Poetry 2, using version 2.1.1. Changes:
+
+* Added support for numpy 2 and Python 3.13.
+* Dropped support for Python 3.8 (again).
+* Note: Still using conditional dependencies to force numpy>=1.26 when Python>=3.12
+
+
 0.3.0
 =====
 Re-added support for Python 3.8 because I figured out how to use conditional dependencies to make that work. In pyproject.toml:

@@ -1,6 +1,6 @@
 [project]
 name = "magicpi"
-version = "0.3.0"
+version = "0.4.1"
 description = "Testing package publishing"
 authors = [
     {name = "Wouter Ellenbroek", email = "w.g.ellenbroek@tue.nl"}
